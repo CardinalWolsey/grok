@@ -2,7 +2,7 @@
   <h1>Sample Participating Businesses</h1>
   <br>
   <div>
-    <div ng-repeat="business in businesses.data">
+    <div class="home-view" ng-repeat="business in businesses.data">
       <a href="#/business/{{business._id}}">{{business.name}}</a>
       <div>id: {{business._id}}</div>
       <div>coordinates: {{business.coords}}</div>
